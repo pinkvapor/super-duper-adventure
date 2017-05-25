@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here');
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -6,6 +9,17 @@
 
 body {
 	background-color: #49ffda;
+	font-family: 'Coming Soon', cursive;
+}
+
+h2 {
+	background-color: pink;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+h3 {
+	font-family: 'Just Me Again Down Here', cursive;
 }
 
 nav ul {
@@ -41,6 +55,15 @@ nav a:hover {
 	text-align: center;
 }
 
+.header2 {
+	padding: 40px 20px;
+	background-imagine: url("../images/ugh.jpg");
+	background-size: cover;
+	background position: center;
+	color: #f5e5f9;
+	text-align: center;
+}
+
 .why-tired {
 	background-color: #fff;
 	padding: 20px;
@@ -48,8 +71,21 @@ nav a:hover {
 	width: 50%;
 }
 
+.about-tired {
+	background-color: #fff;
+	padding:20px;
+	margin: 20px;
+}
+
 .img-50 {
 	width: 50%;
 	display: block;
 	margin: 10px auto;
+}
+
+/* these are Utility classes
+==============================*/
+
+.center-text {
+	text-align: center;
 }
