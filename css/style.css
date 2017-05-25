@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #49ffda;
+}
+
+nav ul {
+	/*padding: 10px 20px 30px 40px;*/
+	overflow: auto;
+	background-color: pink;
+	list-style: none; /* This takes off the bullet points of lis in a ul */
+}
+
+nav li {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+nav a { 
+	color: #91FFFD;
+	text-decoration: none;
+	font-size: 20px;
+	transition: .5s;
+}
+
+nav a:hover {
+	color: #f3a8ff;
+}
+
+.header {
+	padding: 40px 20px;
+	background-image: url("../images/ugh.jpg");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
