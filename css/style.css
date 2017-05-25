@@ -40,3 +40,16 @@ nav a:hover {
 	color: #fff;
 	text-align: center;
 }
+
+.why-tired {
+	background-color: #fff;
+	padding: 20px;
+	margin: 20px;
+	width: 50%;
+}
+
+.img-50 {
+	width: 50%;
+	display: block;
+	margin: 10px auto;
+}
