@@ -90,14 +90,10 @@ nav a:hover {
 	text-align: center;
 }
 
-.left {
+.col-1-4 {
+	width: 25%;
 	float: left;
 }
-
-.right {
-	float: right;
-}
-
 
 label {
 	display: block;
