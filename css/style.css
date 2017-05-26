@@ -89,3 +89,16 @@ nav a:hover {
 .center-text {
 	text-align: center;
 }
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+label {
+	display: block;
+}
